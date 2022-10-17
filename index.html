@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assests/css/style.css">
+
+    <!-- SWIPER CSS -->
+    <link rel="stylesheet" href="/assests/css/swiper-bundle.min.css">
+
+    <!-- SWIPER JS -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" /> -->
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!-- *******  HEADER  ******** -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav_logo">My Portfolio</a>
+
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list grid">
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link">
+                            <i class="fa fa-home nav_icon" aria-hidden="true"></i>
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#about" class="nav_link ">
+                            <i class="fa fa-user nav_icon" aria-hidden="true"></i>
+                            About
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#skills" class="nav_link ">
+                            <i class="fa fa-file-text nav_icon" aria-hidden="true"></i>
+                            Skills
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#services" class="nav_link ">
+                            <i class="fa fa-briefcase nav_icon" aria-hidden="true"></i>
+                            Job Profile
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#portfolio" class="nav_link ">
+                            <i class="fa fa-picture-o nav_icon" aria-hidden="true"></i>
+                            Portfolio
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#contact" class="nav_link ">
+                            <i class="fa fa-paper-plane nav_icon" aria-hidden="true"></i>
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+                <div class="nav_close" id="nav-close">
+                    <i class="fa fa-times " aria-hidden="true"></i>
+                </div>
+            </div>
+
+            <div class="nav_btns">
+                <!-- THEME CHANGE BUTTON -->
+
+
+                <!-- <i class="fa fa-moon-o nav_icon change-theme" id="theme-button" aria-hidden="true"></i> -->
+
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class="fa fa-th-large nav_icon" aria-hidden="true"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN SECTION -->
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home_container container grid">
+                <div class="home_content grid">
+                    <div class="home_social">
+                        <a href="https://www.linkedin.com/in/nishant-sharma-5459b1212" target="_blank"
+                            class="home_social-icon">
+                            <i class="fa fa-linkedin-square" target="_blank" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://github.com/nishant1931" target="_blank" class="home_social-icon">
+                            <i class="fa fa-github" aria-hidden="true"></i>
+                        </a>
+                        <a href="mailto:sharmanishant1908@gmail.com" class="contact_link">
+                            <i class="fa fa-envelope contact_icon" aria-hidden="true"></i>
+
+                        </a>
+                    </div>
+
+                    <div class="home_img">
+                        <svg class="home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                                <image class="home_blob-img" xlink:href="./assests/images/nishant-profile.jpg" />
+                            </g>
+                        </svg>
+
+                    </div>
+
+                    <div class="home_data">
+                        <h1 class="home_title">Hi,
+                            I am Nishant Sharma <i class="fa fa-hand-paper-o hand_icon" aria-hidden="true"></i></h1>
+
+                        <h3 class="home_subtitle">Fullstack developer</h3>
+                        <p class="home_content">Skills in HTML, CSS(frameworks like Bootstrap, Semantic UI, etc.),
+                            Javascript, and React.js. I also have knowledge of backend languages as well like Node.js,
+                            Expressjs, and MongoDB. Always ambitious and highly passionate about learning new languages
+                            and technologies. I am always excited to make projects and websites.
+                        </p>
+                        <a href="#contact" class="button button_flex">
+                            Contact me
+                            <i class="fa fa-paper-plane button_icon" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+
+                <div class="home_scroll home_scroll-button">
+                    <a href="#about" class="home_scroll-button button-flex">
+                        <i class="fa fa-hand-o-down home_scroll-icon" aria-hidden="true"></i>
+                        <span class="home_scroll-name">Scroll down</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- *******    ABOUT ME    *********** -->
+        <section class="about section" id="about">
+            <h2 class="section_title">About Me</h2>
+            <span class="section_subtitle">My Introduction</span>
+
+            <div class="about_container container grid">
+                <img class="about_img" src="/assests/images/nishant-img-2.jpg" alt="image of a boy">
+
+                <div>
+                    <div class="about_data">
+                        <p class="about_description">Fullstack Developer, with good knowledge in frontend and backend
+                            languages. Being a fresher I am adaptive to learn something new where my education and
+                            experience can be utilized. I am working on web technologies and Ui / Ux design. Recently, I
+                            have learnt React in deep knowledge and working on react projects too. I am also learning
+                            Nextjs and Typescript. I want to grow my skills as a software developer that helps in my
+                            future career.
+                        </p>
+                    </div>
+                    <!-- 
+                    <div class="about_info">
+                        <div>
+                            <span class="about_info-title">4 </span>
+                            <span class="about_info-name">months <br> Experience </span>
+                        </div>
+                        <div>
+                            <span class="about_info-title">2</span>
+                            <span class="about_info-name">companies <br> Wroked </span>
+                        </div>
+                        <div>
+                            <span class="about_info-title">4 </span>
+                            <span class="about_info-name">months <br> Experience </span>
+                        </div>
+                    </div> -->
+
+                    <div class="about_buttons">
+                        <a download="" href="assests/pdf/NishantResume.pdf" class="button button-flex">
+                            Download CV <i class="fa fa-download button_icon" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ***********        SKILLS SECTION     ************* -->
+        <section class="skills section" id="skills">
+            <h2 class="section_title">Skills</h2>
+            <span class="section_subtitle">My technical level</span>
+
+            <div class="skills_container container grid">
+
+                <!-- ================    SKILL 1     ============== -->
+                <div class="skills_content skills-open">
+                    <div class="skills_header">
+                        <i class="fa fa-code skills_icon" aria-hidden="true"></i>
+                        <h1 class="skills_title">Frontend developer</h1>
+
+
+                        <i class="fa fa-chevron-down skills_arrow" aria-hidden="true"></i>
+                    </div>
+
+                    <div class="skills_list grid">
+                        <div class="skills_data">
+                            <div class="skills_titles">
+                                <h3 class="skills_name">HTML</h3>
+                                <span class="skills_number">90%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_html"></span>
+                            </div>
+                        </div>
+                        <div class="skills_data">
+                            <div class="skills_titles">
+                                <h3 class="skills_name">CSS</h3>
+                                <span class="skills_number">90%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_css"></span>
+                            </div>
+                        </div>
+                        <div class="skills_data">
+                            <div class="skills_titles">
+                                <h3 class="skills_name">Javascript</h3>
+                                <span class="skills_number">85%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_js"></span>
+                            </div>
+                        </div>
+                        <div class="skills_data">
+                            <div class="skills_titles">
+                                <h3 class="skills_name">React</h3>
+                                <span class="skills_number">80%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_react"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ================    SKILL 2     ============== -->
+                <div class="skills_content skills-close">
+                    <div class="skills_header">
+                        <i class="fa fa-server skills_icon" aria-hidden="true"></i>
+
+
+                        <div>
+                            <h1 class="skills_title">Backend developer</h1>
+                        </div>
+
+                        <i class="fa fa-chevron-down skills_arrow" aria-hidden="true"></i>
+                    </div>
+
+                    <div class="skills_list grid">
+                        <div class="skills_data">
+                            <div class="skills_titles">
+                                <h3 class="skills_name">Node JS</h3>
+                                <span class="skills_number">70%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_node"></span>
+                            </div>
+                        </div>
+                        <div class="skills_data">
+                            <div class="skills_titles">
+                                <h3 class="skills_name">Expressjs</h3>
+                                <span class="skills_number">70%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_express"></span>
+                            </div>
+                        </div>
+                        <div class="skills_data">
+                            <div class="skills_titles">
+                                <h3 class="skills_name">Mongo DB</h3>
+                                <span class="skills_number">70%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_mongo"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ************   QUALIFICATION SECTION  ************** -->
+
+        <section class="qualification section" id="qualification">
+            <h2 class="section_title">Qualifications</h2>
+            <span class="section_subtitle">My Personal journey</span>
+
+            <div class="qualification_container container">
+                <div class="qualification_tabs ">
+                    <div class="qualification_button button-flex qualification-active" data-target="#education">
+                        <i class="fa fa-graduation-cap qualification_icon" aria-hidden="true"></i>
+                        Education
+                    </div>
+                    <div class="qualification_button button-flex" data-target="#work">
+                        <i class="fa fa-briefcase qualification_icon" aria-hidden="true"></i>
+                        Work
+                    </div>
+                </div>
+
+                <div class="qualification_sections">
+                    <!-- ************   QUALIFICATION CONTENT 1  ************** -->
+                    <div class="qualification_content qualification-active" data-content id="education">
+                        <!-- ************   QUALIFICATION 1  ************** -->
+                        <div class="qualification_data">
+                            <div>
+                                <h3 class="qualification_title">Master of Computer application</h3>
+                                <span class="qualification_subtitle">IGNOU</span>
+                                <div class="qualification_calendar">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                                    2021 - 2023
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <span class="qualification_line"></span>
+                            </div>
+                        </div>
+                        <!-- ************   QUALIFICATION 2  ************** -->
+                        <div class="qualification_data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <span class="qualification_line"></span>
+                            </div>
+                            <div>
+                                <h3 class="qualification_title">Bachelor of Computer application</h3>
+                                <span class="qualification_subtitle">IGNOU</span>
+                                <div class="qualification_calendar">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                                    2017 - 2022
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ************   QUALIFICATION 3  ************** -->
+                        <div class="qualification_data">
+                            <div>
+                                <h3 class="qualification_title">12 <sup>th</sup> (Computer Science) </h3>
+                                <span class="qualification_subtitle">CBSE</span>
+                                <div class="qualification_calendar">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                                    2015 - 2017
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <!-- <span class="qualification_line"></span> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ************   QUALIFICATION CONTENT 2 ************** -->
+                    <div class="qualification_content" data-content id="work">
+                        <!-- ************   WORK 1  ************** -->
+                        <div class="qualification_data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <!-- <span class="qualification_liner"></span> -->
+                            </div>
+                            <div>
+                                <h3 class="qualification_title">Web development intern</h3>
+                                <span class="qualification_subtitle">Srchout Software, Gurgaon</span>
+                                <div class="qualification_calendar">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                                    May 2022 - September 2022
+                                </div>
+                                <script src="./assests/js/swiper-bundle.min.js"></script>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- ************   SERVICE SECTION     ************     -->
+        <section class="services section" id="services">
+            <h2 class="section_title">Job Profile</h2>
+            <span class="section_subtitle">What I do</span>
+
+            <div class="services_container container grid">
+                <!-- ************   SERVICES CONTENT 1     ************     -->
+                <div class="services_content">
+                    <div>
+                        <i class="fa fa-object-group services_icon" aria-hidden="true"></i>
+                        <h3 class="services_title">Ui/Ux & Frontend Developer</h3>
+                    </div>
+                    <span class="button button-flex button-small button-link services_button">
+                        View more
+                        <i class="fa fa-arrow-right button_icon" aria-hidden="true"></i>
+                    </span>
+
+                    <div class="services_modal">
+                        <div class="services_modal_content">
+                            <h4 class="services_modal-title">Ui/Ux & Frontend Developer</h4>
+                            <i class="fa fa-times services_modal-close"></i>
+
+                            <ul class="services_modal-services grid">
+                                <li class="services_modal-service">
+                                    <i class="fa fa-check-circle services_modal-icon" aria-hidden="true"></i>
+                                    <p>I develop the user interface.</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="fa fa-check-circle services_modal-icon" aria-hidden="true"></i>
+                                    <p>Web page development. I also make landing pages.</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="fa fa-check-circle services_modal-icon" aria-hidden="true"></i>
+                                    <p>I create UX element interactions.</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="fa fa-check-circle services_modal-icon" aria-hidden="true"></i>
+                                    <p>I also make a single-page application using React.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- ************   SERVICES CONTENT 2    ************     -->
+                <div class="services_content">
+                    <div>
+                        <i class="fa fa-code services_icon" aria-hidden="true"></i>
+                        <h3 class="services_title">Fullstack Developer</h3>
+                    </div>
+                    <span class="button button-flex button-small button-link services_button">
+                        View more
+                        <i class="fa fa-arrow-right button_icon" aria-hidden="true"></i>
+                    </span>
+
+                    <div class="services_modal">
+                        <div class="services_modal_content">
+                            <h4 class="services_modal-title">Fullstack Developer</h4>
+                            <i class="fa fa-times services_modal-close"></i>
+
+                            <ul class="services_modal-services grid">
+                                <li class="services_modal-service">
+                                    <i class="fa fa-check-circle services_modal-icon" aria-hidden="true"></i>
+                                    <p>I can work with databases that connect the front end of a website smoothly.</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="fa fa-check-circle services_modal-icon" aria-hidden="true"></i>
+                                    <p>I also work on the responsiveness of a website.</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="fa fa-check-circle services_modal-icon" aria-hidden="true"></i>
+                                    <p>I make web applications in MERN stack technology.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- *********      PORTFOLIO PROJECTS  SECTTION    *************-->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section_title">Portfolio</h2>
+            <span class="section_subtitle">Most Recent work</span>
+
+            <div class="portfolio_container container swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <!-- ********   PORTFOLIO 1     ********** -->
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="assests/images/yelpcamp.png" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Yelp Camp - Web App </h3>
+                            <p class="portfolio_description">It is a node.js web application where you can add any
+                                campground and give reviews on others. It is a user authentication web app means you
+                                cannot add campground if you are not logged in.</p>
+                            <a href="https://yelpcamp-1908.herokuapp.com/" target="_blank"
+                                class="button button-flex button-small portfolio_button">
+                                Demo <i class="fa fa-arrow-right button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- ********   PORTFOLIO 2     ********** -->
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="assests/images/omnifood.png" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Omnifood Landing page </h3>
+                            <p class="portfolio_description">It is a dummy landing page website that I have built using
+                                HTML, CSS, and a little bit of Javascript.
+                                It provides the information if you want to order the food online.</p>
+                            <a href="https://omnifood-foody.netlify.app/" target="_blank"
+                                class="button button-flex button-small portfolio_button">
+                                Demo <i class="fa fa-arrow-right button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- ********   PORTFOLIO 4    ********** -->
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="assests/images/prewery.png" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Prewery landing page</h3>
+                            <p class="portfolio_description">It is a complete dummy UI responsive landing page. This is
+                                just a showcase of my UI skills.</p>
+                            <a href="https://prewery-ui-1999.netlify.app/" target="_blank"
+                                class="button button-flex button-small portfolio_button">
+                                Demo <i class="fa fa-arrow-right button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- ********   PORTFOLIO 3    ********** -->
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="assests/images/bookpod.png" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Bookpod</h3>
+                            <p class="portfolio_description">This is just a very simple UI page that is built using HTML
+                                and CSS only.</p>
+                            <a href="https://bookpod-312.netlify.app" target="_blank"
+                                class="button button-flex button-small portfolio_button">
+                                Demo <i class="fa fa-arrow-right button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- SWIPER ARROWS -->
+                <div class="swiper-button-next">
+                    <i class="fa fa-chevron-right swiper-portfolio-icon" aria-hidden="true"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="fa fa-chevron-left swiper-portfolio-icon" aria-hidden="true"></i>
+
+                </div>
+                <div class="swiper-pagination"></div>
+
+            </div>
+        </section>
+
+        <!-- CONTACT ME   -->
+        <section class="contact section" id="contact">
+            <h2 class="section_title">You have a new Project</h2>
+            <span class="section_subtitle contact-text">HIRE ME </span>
+
+            <div class="contact_container container grid">
+                <div>
+                    <div class="contact_information">
+                        <i class="fa fa-phone contact_icon" aria-hidden="true"></i>
+
+                        <a href="tel:+91-8384023627" class="contact_link">
+                            <h3 class="contact_title">Call Me</h3>
+                            <span class="contact_subtitle">+918384023627</span>
+                        </a>
+                    </div>
+                    <div class="contact_information">
+                        <i class="fa fa-envelope contact_icon" aria-hidden="true"></i>
+
+                        <a href="mailto:sharmanishant1908@gmail.com" class="contact_link">
+                            <h3 class="contact_title">Email</h3>
+                            <span class="contact_subtitle">sharmanishant1908@gmail.com</span>
+                        </a>
+                    </div>
+                    <div class="contact_information">
+                        <i class="fa fa-whatsapp contact_icon" aria-hidden="true"></i>
+
+                        <a href="https://api.whatsapp.com/send?phone=918384023627" target="_blank" class="contact_link">
+                            <h3 class="contact_title">Whatsapp Me</h3>
+                            <span class="contact_subtitle">Start chat on
+                                whatsapp.</span>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact_form grid" name="portfolio" data-netlify="true">
+                    <div class="contact_inputs grid">
+                        <div class="contact_content">
+                            <label for="name" class="contact_label">Name</label>
+                            <input id="name" name="name" type="text" class="contact_input" required>
+
+                        </div>
+                        <div class="contact_content">
+                            <label for="email" class="contact_label">Email</label>
+                            <input id="email" name="email" type="email" class="contact_input" required>
+                        </div>
+                        <div class="contact_content">
+                            <label for="message" class="contact_label">Message</label>
+                            <textarea id="message" name="message" id="" cols="0" rows="6" class="contact_input"
+                                required></textarea>
+                        </div>
+                        <div>
+                            <button type="submit" class="button button-flex form-button">
+                                Send Message
+                                <i class="fa fa-paper-plane button_icon" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- *********      FOOTER SECTION      ************ -->
+    <footer class="footer">
+        <div class="footer_bg section">
+            <div class="footer_container container grid">
+                <div>
+                    <h1 class="footer_title">Nishant Sharma </h1>
+                    <span class="footer_subtitle">Fullstack Developer</span>
+                </div>
+
+                <ul class="footer_links">
+                    <li>
+                        <a href="#about" class="footer_link">About</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="footer_link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="footer_link">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#qualification" class="footer_link">Qualifications</a>
+                    </li>
+                    <li>
+                        <a href="#services" class="footer_link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer_link">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="footer_socials">
+                    <a href="https://www.linkedin.com/in/nishant-sharma-5459b1212" class="footer_social"
+                        target="_blank">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.instagram.com/nishu_1931/" class="footer_social" target="_blank">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://github.com/nishant1931" target="_blank" class="footer_social">
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+
+            <p class="footer_copy"> 2022 All right reserved &#169;</p>
+        </div>
+    </footer>
+
+    <!-- SCROLL TO TOP      ***************** -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="fa fa-arrow-up scrollup_icon" aria-hidden="true"></i>
+    </a>
+
+
+
+
+
+
+
+
+
+    <script src="assests/js/swiper-bundle.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> -->
+    <script src="./assests/js/main.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script> -->
+
+
+</body>
+
+</html>
